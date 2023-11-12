@@ -1,0 +1,12 @@
+-- É necessário backend também?
+-- O site está muito pesado
+-- As páginas relacionadas aos álbuns não possuem nada. Posso ignorar/ remover elas? [
+
+APARECE O SEGUINTE:
+
+Request Timeout
+This request takes too long to process, it is timed out by the server. 
+If it should not be timed out, please contact administrator of this web 
+site to increase 'Connection Timeout
+
+]

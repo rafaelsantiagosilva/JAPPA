@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+header{
+    background-image: url("../assets/images/cabecalho2.png");
+    background-size: cover;
+    height: 40vh;
+    display: grid;
+    justify-content: center;
+}
+
+nav.header-nav{
+    box-shadow: 2px 5px 9px rgba(0, 0, 0, 0.429);
+}
+
+nav.header-nav > ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(212, 189, 17, 0.84);
+    padding: 5px;
+}
+
+nav.header-nav a{
+    color: #000000;
+    font-weight: 555;
+}
+
+main, section, aside{
+    margin: 2.5em;
+}
+
+.content{
+    display: flex;
+}
+
+nav.navbar-left{
+    background-color: rgb(198, 198, 198);
+    width: 40vh;
+    height: 100vh;
+    padding: 1em;
+    font-size: 1.5em;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.575);
+    border: 5px solid #eaeaea;
+    /* position: absolute; */
+    display: flex;
+}
+
+nav.navbar-left li{
+    margin: 1em;
+}
+
+footer{
+    padding: 2em;
+    background-color: rgb(28, 33, 29);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 2px -5px 9px rgba(0, 0, 0, 0.429);
+}
+
+footer *{
+    margin: 0.5em;
+}
+
+p.endereco{
+    position: relative;
+    top: 1em;
+}
+
+img.facebook{
+    width: 2em;
+    position: relative;
+    top: 1em;
+}
+
+div.contatos{
+    position: relative;
+    bottom: 1.3em;
+}
+
+footer hr{
+    width: 100%;
+}

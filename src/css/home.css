@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.empresas-apoiadoras{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+img.apoiadora{
+    width: 5em;
+}
+
+.other-pages{
+    display: flex;
+}
+
+@media screen and (max-width: 950px) {
+    nav.navbar-left{
+        display: none;
+    }
+
+    .content{
+        flex-wrap: wrap;
+    }
+}

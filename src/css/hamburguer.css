@@ -1,0 +1,13 @@
+nav.menu-hamburguer {
+    position: absolute;
+    left: 4em;
+}
+
+.menu-hide {
+    display: none;
+}
+
+
+.menu-button:hover {
+    cursor: pointer;
+}

@@ -7,11 +7,28 @@
     <link rel="shortcut icon" href="./src/assets/images/favicon.ico" type="image/x-icon">
     <title>Jacaré Ribeirão Vivo - Associação para Preservação Ambiental - Itatiba - SP</title>
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/hamburguer.css">
     <link rel="stylesheet" href="./src/css/home.css">
+    <script src="./src/js/hamburguer.js"></script>
 </head>
 
 <body>
     <header>
+        <nav class="menu-hamburguer">
+            <div class="menu-button"><img src="./src/assets/images/menu.png" alt=""></div>
+            <ul class="menu-hide">
+                <li><a href="./src/pages/afinidadeseentidades.html">Afinidades e Entidades</a></li>
+                <li><a href="./src/pages/album.html" target="_blank">Álbum</a></li>
+                <li><a href="./src/pages/assuntoseartigos.html">Assuntos e Artigos</a></li>
+                <li><a href="./src/pages/atasememorias.html">Atas e Memórias</a></li>
+                <li><a href="./src/pages/diversao.html">Diversão</a></li>
+                <li><a href="./src/pages/estatuto.html">Estatuto</a></li>
+                <li><a href="./src/pages/mapasituacional.html">Mapa Situacional</a></li>
+                <li><a href="./src/pages/projetoJAPPA.html">Projeto JAPPA</a></li>
+                <li><a href="./src/pages/videos.html">Vídeos</a></li>
+                <li><a href="./src/pages/vistaessaideia.html">Vista essa ideia</a></li>
+            </ul>
+        </nav>
         <img src="./src/assets/images/logo_JAPPA.png" alt="">
     </header>
 
@@ -24,30 +41,16 @@
         </ul>
     </nav>
 
-    <section style="background-color: red;">
+    <section class="intro">
+        <h1>Bem-vindo!</h1>
         <p>A <strong>JAPPA - Jacaré Ribeirão Vivo Associação para Preservação Ambiental - </strong> é uma ONG sem fins
             lucrativos e apartidário, que tem como objetivo levar Itatiba/SP a fazer o melhor possível no resgate,
             tratamento e conservação do Ribeirão Jacaré, que nasce no Munícipio e cruza desaguando no Rio Atibaia.</p>
     </section>
 
     <div class="content">
-        <nav class="navbar-left">
-            <ul>
-                <li><a href="./src/pages/afinidadeseentidades.html">Afinidades e Entidades</a></li>
-                <li><a href="./src/pages/album.html" target="_blank">Álbum</a></li>
-                <li><a href="./src/pages/assuntoseartigos.html">Assuntos e Artigos</a></li>
-                <li><a href="./src/pages/atasememorias.html">Atas e Memórias</a></li>
-                <li><a href="./src/pages/diversao.html">Diversão</a></li>
-                <li><a href="./src/pages/estatuto.html">Estatuto</a></li>
-                <li><a href="./src/pages/filiacao.html">Filiação</a></li>
-                <li><a href="./src/pages/mapasituacional.html">Mapa Situacional</a></li>
-                <li><a href="./src/pages/projetoJAPPA.html">Projeto JAPPA</a></li>
-                <li><a href="./src/pages/videos.html">Vídeos</a></li>
-                <li><a href="./src/pages/vistaessaideia.html">Vista essa ideia</a></li>
-            </ul>
-        </nav>
         <main>
-            <section style="background-color: pink;">
+            <section class="acoes">
                 <h2>Ações2020:</h2>
                 <p><a href="./src/assets/docs/home/acoes-jan2020.pdf" target="_blank">Janeiro</a></p>
                 <h2>- Resumo das Atividades - (Gestão 2017/2018/2019):</h2>
@@ -55,54 +58,58 @@
                         2018
                         - 2019</a></p>
                 <!-- Dropdown -->
-                <div>
+                <div class="lista-acoes2020">
                     <p>
                         <strong>Ver todas as ações:</strong>
                     </p>
+                    <ul>
+                        <li><a href="./src/assets/docs/home/aniversario-14-anos-jappa.pdf" target="_blank">Aniversário
+                                de 14
+                                anos da JAPPA</a></li>
+                        <li><a href="./src/assets/docs/home/boletimdeatendimento-bas-gm-ambiental-jan-a-maio-2020.pdf"
+                                target="_blank">Boletim de Atendimento elaborado pela GM Ambiental - Jan a Maio/2020</a>
+                        </li>
+                        <li><a href="./src/assets/docs/home/capa-gibi-jappa-distribuicao-gratuita-criancas-ensino fundamental.pdf"
+                                target="_blank">Capa do Gibi da JAPPA que será distriuido (GRATUITAMENTE) às crianças do
+                                Ensino
+                                Fundamental</a></li>
+                        <li><a href="./src/assets/docs/home/mocao-de-congratulacoes-aniversario-da-jappa-17052020.pdf"
+                                target="_blank">Moção de Congratulações - Câmara Municipal de Itatiba - 18/05/2020</a>
+                        </li>
+                        <li><a href="./src/assets/docs/home/cartilha-meuecoponto-guia-do-usuario.pdf"
+                                target="_blank">Cartilha:
+                                "Meu Ecoponto" - Guia do Usuário</a></li>
+                        <li><a href="./src/assets/docs/home/artigo-eu-morcego-edison-guidi.pdf" target="_blank">Eu,
+                                Morcego
+                                I -
+                                Edison Guidi</a></li>
+                        <li><a href="./src/assets/docs/home/artigo-eu-morcego-II-edison-guidi.pdf" target="_blank">Eu,
+                                Morcego
+                                II - Edison Guidi</a></li>
+                        <li><a href="./src/assets/docs/home/arborizacao-urbana-2015.pdf" target="_blank">Termo de
+                                parceria -
+                                ARBORIZÇÃO URBANA</a></li>
+                        <li><a href="./src/assets/docs/home/quem-nos-salvara-de-quem-nos-devia-proteger.pdf"
+                                target="_blank">QUEM NOS SALVARÁ DE QUEM NOS DEVIA PROTEGER?</a></li>
+                        <li><a href="./src/assets/docs/home/agua-de-novo-para-que-nao-se-torne-nunca.pdf"
+                                target="_blank">Água -
+                                de novo para que não se torne nunca</a></li>
+                        <li><strong>Vídeo: </strong><a href="https://youtu.be/_zbtr8XBy9Y?si=kNvlj--T1lFdCOon"
+                                target="_blank">Assista o documentário-JAPPA sobre as interferências sofridas
+                                pelo
+                                nosso Ribeirão por conta das obras de duplicação da Rodovia Engenheiro Constâncio
+                                Cintra</a>
+                        </li>
+                        <li><a href="./src/assets/docs/home/agradecimento-pelo-meio-ambiente.pdf"
+                                target="_blank">Agradecimento
+                                pelo Meio Ambiente</a></li>
+                        <!-- Dropdown -->
+                        <li>Mostrar Mais...</li>
+                    </ul>
                 </div>
             </section>
-            <section style="background-color: purple;">
-                <ul>
-                    <li><a href="./src/assets/docs/home/aniversario-14-anos-jappa.pdf" target="_blank">Aniversário de 14
-                            anos da JAPPA</a></li>
-                    <li><a href="./src/assets/docs/home/boletimdeatendimento-bas-gm-ambiental-jan-a-maio-2020.pdf"
-                            target="_blank">Boletim de Atendimento elaborado pela GM Ambiental - Jan a Maio/2020</a>
-                    </li>
-                    <li><a href="./src/assets/docs/home/capa-gibi-jappa-distribuicao-gratuita-criancas-ensino fundamental.pdf"
-                            target="_blank">Capa do Gibi da JAPPA que será distriuido (GRATUITAMENTE) às crianças do
-                            Ensino
-                            Fundamental</a></li>
-                    <li><a href="./src/assets/docs/home/mocao-de-congratulacoes-aniversario-da-jappa-17052020.pdf"
-                            target="_blank">Moção de Congratulações - Câmara Municipal de Itatiba - 18/05/2020</a></li>
-                    <li><a href="./src/assets/docs/home/cartilha-meuecoponto-guia-do-usuario.pdf"
-                            target="_blank">Cartilha:
-                            "Meu Ecoponto" - Guia do Usuário</a></li>
-                    <li><a href="./src/assets/docs/home/artigo-eu-morcego-edison-guidi.pdf" target="_blank">Eu, Morcego
-                            I -
-                            Edison Guidi</a></li>
-                    <li><a href="./src/assets/docs/home/artigo-eu-morcego-II-edison-guidi.pdf" target="_blank">Eu,
-                            Morcego
-                            II - Edison Guidi</a></li>
-                    <li><a href="./src/assets/docs/home/arborizacao-urbana-2015.pdf" target="_blank">Termo de parceria -
-                            ARBORIZÇÃO URBANA</a></li>
-                    <li><a href="./src/assets/docs/home/quem-nos-salvara-de-quem-nos-devia-proteger.pdf"
-                            target="_blank">QUEM NOS SALVARÁ DE QUEM NOS DEVIA PROTEGER?</a></li>
-                    <li><a href="./src/assets/docs/home/agua-de-novo-para-que-nao-se-torne-nunca.pdf"
-                            target="_blank">Água -
-                            de novo para que não se torne nunca</a></li>
-                    <li><strong>Vídeo: </strong><a href="https://youtu.be/_zbtr8XBy9Y?si=kNvlj--T1lFdCOon"
-                            target="_blank">Assista o documentário-JAPPA sobre as interferências sofridas
-                            pelo
-                            nosso Ribeirão por conta das obras de duplicação da Rodovia Engenheiro Constâncio Cintra</a>
-                    </li>
-                    <li><a href="./src/assets/docs/home/agradecimento-pelo-meio-ambiente.pdf"
-                            target="_blank">Agradecimento
-                            pelo Meio Ambiente</a></li>
-                    <!-- Dropdown -->
-                    <li>Mostrar Mais...</li>
-                </ul>
-            </section>
-            <section style="background-color: orange;">
+
+            <section class="notas">
                 <h2>Notas:</h2>
                 <ul>
                     <li><a href="./src/assets/docs/home/notas/mocaodecongratulacoes-camaravereadores-junho2009.pdf"
@@ -132,7 +139,7 @@
                 <p>Quantos Somos: 2.933</p>
             </div>
 
-            <aside style="width: 100vh;">
+            <aside>
                 <p><strong>Agenda de reuniões JAPPA:</strong> sempre às quintas-feiras das <strong>18:30h às
                         19:30h</strong>
                     na

@@ -10,3 +10,5 @@ If it should not be timed out, please contact administrator of this web
 site to increase 'Connection Timeout
 
 ]
+
+-- Retirei um dos links repetitivos de filiação

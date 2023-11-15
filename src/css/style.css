@@ -5,6 +5,26 @@
     --titleShadow: rgb(216, 239, 216);
 }
 
+@keyframes menuGo {
+    from{
+
+    }
+
+    to{
+
+    }
+}
+
+@keyframes menuBack {
+    from{
+
+    }
+
+    to{
+
+    }
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -62,6 +82,36 @@ nav.header-nav > ul{
 nav.header-nav a{
     color: #000000;
     font-weight: 555;
+}
+
+ul.menu-hide{
+    background-color: rgb(212, 189, 17);
+    padding: 2em;
+    font-size: 1.5em;
+    line-height: 2em;
+    height: 400%;
+    width: 100vh;
+    position: absolute;
+    z-index: 5;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.459);
+    border-radius: 10px;
+    transition: 2s;
+}
+
+ul.menu-hide a{
+    color: #000000;
+}
+
+img.menu-icon{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    cursor: pointer;
+}
+
+img.icon-x{
+    width: 70px;
+    height: 70px;
 }
 
 main, section, aside{

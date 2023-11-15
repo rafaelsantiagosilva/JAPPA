@@ -42,7 +42,7 @@ img.apoiadora{
     background-color: var(--titleColor);
     color: white;
     text-align: center;
-    box-shadow: 2px 2px 3px var(--titleShadow);
+    box-shadow: 2px 2px 2px var(--titleShadow);
     border-radius: 10px;
     padding: 0.5em;
     width: fit-content;

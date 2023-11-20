@@ -1,0 +1,43 @@
+:root{
+    --form_color_border_theme: rgb(68, 107, 68);
+}
+
+main > p{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    width: 100vh;
+    margin: auto;
+    flex-direction: column;
+}
+
+input{
+    border: 2px solid var(--form_color_border_theme);
+    padding: 0.5em;
+    border-radius: 10px;
+    letter-spacing: 1.3px;
+    font-size: 1.2em;
+}
+
+label{
+    font-size: 1.3em;
+    color: green;
+    font-weight: bolder;
+    text-shadow: 1px 1px 0.5px #beeebe;
+}
+
+div.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+textarea{
+    border: 2px solid var(--form_color_border_theme);
+    border-radius: 10px;
+    padding: 1em;
+    letter-spacing: 1.3px;
+    font-size: 1.2em;
+}

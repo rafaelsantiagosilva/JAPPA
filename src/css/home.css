@@ -33,9 +33,28 @@ img.apoiadora{
     width: 5em;
 }
 
+.other-pages section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: rgb(25, 193, 25);
+    text-shadow: 1px 1px 1px rgb(118, 215, 118);
+}
+
+.other-pages img{
+    border-radius: 10px;
+    box-shadow: 4px 3px 5px rgba(4, 4, 4, 0.407);
+}
+
 .other-pages{
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
+}
+
+.other-pages > section{
+    margin: auto;
 }
 
 .quantosSomos{
@@ -47,6 +66,13 @@ img.apoiadora{
     padding: 0.5em;
     width: fit-content;
     margin: auto;
+    margin-top: 1em;
+}
+
+.telefones-uteis{
+    background-color: green;
+    color: white;
+    padding: 0.5em;
 }
 
 @media screen and (max-width: 950px) {

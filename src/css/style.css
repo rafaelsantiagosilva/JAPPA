@@ -34,6 +34,10 @@
     list-style: none;
 }
 
+body{
+    background-color: rgb(250, 247, 247);
+}
+
 *::selection{
     background-color: #008000;
     color: #ffffff;
@@ -42,7 +46,6 @@
 a:hover{
     text-decoration: underline;
 }
-
 
 header{
     background-image: url("../assets/images/cabecalho2.png");

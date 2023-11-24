@@ -12,3 +12,5 @@ site to increase 'Connection Timeout
 ]
 
 -- Retirei um dos links repetitivos de filiação
+
+-- Não há o PDF das ações realizadas em outubro de 2012

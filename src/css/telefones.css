@@ -1,0 +1,36 @@
+section.tabelas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+table{
+    margin: 1em;
+    border: 1px solid var(--titleColor);
+    border-collapse: collapse;
+    box-shadow: 3px 3px 3px #0000007d;
+    height: 80vh;
+}
+
+tr, tr *{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+th, td{
+    padding: 0.5em;
+    border: 1px solid var(--titleColor);
+}
+
+
+th{
+    background-color: #f4f9f2;
+}
+
+
+td{
+    text-align: center;
+    font-size: 1.1em;
+}

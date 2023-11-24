@@ -1,0 +1,12 @@
+main img{
+    width:  70vh;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.551);
+}
+
+.container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}

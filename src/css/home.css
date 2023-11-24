@@ -29,10 +29,6 @@
     line-height: 1.5em;
 }
 
-img.apoiadora{
-    width: 5em;
-}
-
 .other-pages section{
     text-align: center;
     display: flex;
@@ -69,10 +65,47 @@ img.apoiadora{
     margin-top: 1em;
 }
 
+aside.outros{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
 .telefones-uteis{
     background-color: green;
     color: white;
     padding: 0.5em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.442);
+}
+
+aside.apoio > h3{
+    background-color: #daa520;
+    color: #ffffff;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 0.3em;
+    border-radius: 25px;
+    width: 50vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.442);
+}
+
+div.empresas-apoiadoras{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+img.apoiadora{
+    width: 6em;
+}
+
+aside.apoio > p{
+    margin: 1em;
 }
 
 @media screen and (max-width: 950px) {
@@ -84,24 +117,7 @@ img.apoiadora{
         font-size: 0.9em;
     }
 
-    nav.navbar-left{
-        display: none;
-    }
-
     .content{
         flex-wrap: wrap;
-    }
-
-    nav{
-        font-size: 0.7em;
-    }
-
-    nav button{
-        width: 1em;
-        height: 1em;
-    }
-
-    footer{
-        font-size: 0.8em;
     }
 }

@@ -1,0 +1,32 @@
+.container-mapa{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.container-mapa > p > a{
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+#mapa_situacional{
+    width: 110vh;
+    display: block;
+    margin: auto;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.446);
+    border-radius: 10px;
+    margin-top: 1em;
+}
+
+@media screen and (max-width: 800px) {
+    #mapa_situacional{
+        width: 80vh;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #mapa_situacional{
+        width: 60vh;
+    }
+}

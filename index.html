@@ -14,12 +14,13 @@
 <body>
     <header>
         <nav class="menu-hamburguer">
-            <img src="./src/assets/images/menu.png" alt="Botã para abrir o menu hamburguer" class="menu-button menu-icon">
+            <img src="./src/assets/images/menu.png" alt="Botão para abrir o menu hamburguer"
+                class="menu-button menu-icon">
         </nav>
         <ul class="menu-hide">
             <img src="./src/assets/images/menuX.png" alt="X para fechar o menu hamburguer" class="menu-icon icon-x">
             <li><a href="./src/pages/afinidadeseentidades.html">Afinidades e Entidades</a></li>
-            <li><a href="./src/pages/album.html" target="_blank">Álbum</a></li>
+            <li><a href="./src/pages/album.html">Álbum</a></li>
             <li><a href="./src/pages/assuntoseartigos.html">Assuntos e Artigos</a></li>
             <li><a href="./src/pages/atasememorias.html">Atas e Memórias</a></li>
             <li><a href="./src/pages/diversao.html">Diversão</a></li>
@@ -57,11 +58,12 @@
                 <p><a href="./src/assets/docs/home/resumo-atividades-2017-2018-2019.pdf" target="_blank">Resumo 2017 -
                         2018
                         - 2019</a></p>
+                <p>
+                    <strong><a href="./src/pages/acoesrealizadas.html">Ver todas as ações:</a></strong>
+                </p>
                 <!-- Dropdown -->
                 <div class="lista-acoes2020">
-                    <p>
-                        <strong>Ver todas as ações:</strong>
-                    </p>
+
                     <ul>
                         <li><a href="./src/assets/docs/home/aniversario-14-anos-jappa.pdf" target="_blank">Aniversário
                                 de 14
@@ -124,7 +126,7 @@
                     <h3>Você concorda com isso?</h3>
                     <img src="./src/assets/images/filiacao.jpg" alt="Imagem de um rio sendo poluído pelo esgoto">
                     <p>Não? Então filie-se agora!</p>
-                    <p><a href="" target="_blank">Clique aqui</a></p>
+                    <p><a href="./src/php/filiacao.php" target="_blank">Clique aqui</a></p>
                 </section>
                 <section class="videos">
                     <h3>Vídeos selecionados</h3>
@@ -145,32 +147,32 @@
                     TRAVESSA MONSENHOR KOLY, Nº14 - ITATIBA/SP - CENTRO - CEP: 13.250-304</strong></p>
             </aside>
         </main>
-        <aside>
-            <section>
-                <!-- Dropdown -->
-                <div class="telefones-uteis">
-                    <p>Telefones úteis</p>
-                </div>
+        <aside class="outros">
+            <div class="telefones-uteis">
+                <p><a style="color: #ffffff;" href="./src/pages/telefones.html">Telefones úteis >>></a></p>
+            </div>
+            <aside class="apoio">
+
                 <h3>Apoio</h3>
                 <p>Essas empresas apoiam a JAPPA:</p>
-                <ul class="empresas-apoiadoras">
-                    <li><a href="http://www.ditoefeitovisual.com.br/" target="_blank"><img class="apoiadora"
-                                src="./src/assets/images/empresasApoiadoras/ditoEFeito.png"
-                                alt="Logo da empresa apoiadora Dito & Feito"></a></li>
-                    <li><a href="https://www.facebook.com/mb.calhaseserralheria/" target="_blank"><img class="apoiadora"
-                                src="./src/assets/images/empresasApoiadoras/MB.jpg"
-                                alt="Logo da empresa apoiadora MB"></a>
-                    </li>
-                    <li><a href="http://globalfood.com.br/" target="_blank"><img class="apoiadora"
-                                src="./src/assets/images/empresasApoiadoras/globalFood.png"
-                                alt="Logo da empresa apoiadora Global Food"></a></li>
-                </ul>
-            </section>
+                <div class="empresas-apoiadoras">
+                    <a href="http://www.ditoefeitovisual.com.br/" target="_blank"><img class="apoiadora"
+                            src="./src/assets/images/empresasApoiadoras/ditoEFeito.png"
+                            alt="Logo da empresa apoiadora Dito & Feito"></a>
+                    <a href="https://www.facebook.com/mb.calhaseserralheria/" target="_blank"><img class="apoiadora"
+                            src="./src/assets/images/empresasApoiadoras/MB.png" alt="Logo da empresa apoiadora MB"></a>
+
+                    <a href="http://globalfood.com.br/" target="_blank"><img class="apoiadora"
+                            src="./src/assets/images/empresasApoiadoras/globalFood.png"
+                            alt="Logo da empresa apoiadora Global Food"></a>
+                </div>
+            </aside>
+
         </aside>
     </div>
 
     <section>
-        <h3 style="text-align: center;"><img src="" alt=""><a href="">Vista essa ideia!</a></h3>
+        <h3 style="text-align: center;"><a href="./src/pages/vistaessaideia.html">Vista essa ideia!</a></h3>
     </section>
 
     <footer>

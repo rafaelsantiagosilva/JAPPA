@@ -1,0 +1,30 @@
+p, h2{
+    text-align: center;
+}
+
+img.jacare{
+    width: 110vh;
+    margin: auto;
+}
+
+div.container-tirinha > a{
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(215, 215, 10);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.652);
+}
+
+div.container-tirinha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) {
+    img.jacare{
+        width: 80vh;
+    }
+}

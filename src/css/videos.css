@@ -1,0 +1,11 @@
+div.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+video, iframe{
+    width: 80vh;
+    height: 50vh;
+}

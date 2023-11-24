@@ -51,38 +51,44 @@
             <a href="malito:ribeirao.jacare@uol.com.br">ribeirao.jacare@uol.com.br</a>
         </p>
 
-        <form target="_noblank">
+        <form target="_noblank" action>
             <div class="inputBox">
                 <label for="inpNome">Nome</label>
-                <input type="text" name="nome" id="inpNome" value size="40" required>
+                <input type="text" name="nome" id="inpNome" required>
             </div>
 
             <div class="inputBox">
                 <label for="inpEmail">Email</label>
-                <input type="text" name="email" id="inpEmail" value size="40" required>
+                <input type="text" name="email" id="inpEmail" required>
             </div>
 
             <div class="inputBox">
                 <label for="inpTelefone">Telefone</label>
-                <input type="text" name="telefone" id="inpTelefone" value size="40" required>
+                <input type="text" name="telefone" id="inpTelefone" required>
             </div>
 
             <div class="inputBox">
                 <label for="inpCidade">Cidade</label>
-                <input type="text" name="cidade" id="inpCidade" value size="40" required>
+                <input type="text" name="cidade" id="inpCidade" required>
             </div>
 
             <div class="inputBox">
                 <label for="inpAssunto">Assunto</label>
-                <input type="text" name="assunto" id="inpAssunto" value size="40" required>
+                <input type="text" name="assunto" id="inpAssunto" required>
             </div>
 
-            <label for="txtMensagem">
-                <h2 style="text-align: center;">Mensagem</h2>
-            </label>
-            <textarea name="mensagem" id="txtMensagem" cols="50" rows="10" wrap="VIRTUAL">
+            <div class="inputBox">
+                <label for="txtMensagem">
+                    <h2 style="text-align: center;">Mensagem</h2>
+                </label>
+                <textarea name="mensagem" id="txtMensagem" cols="50" rows="10" wrap="VIRTUAL">
+                </textarea>
+            </div>
 
-            </textarea>
+            <div class="botoes">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
         </form>
     </main>
 

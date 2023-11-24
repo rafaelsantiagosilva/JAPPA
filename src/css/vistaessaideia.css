@@ -1,0 +1,35 @@
+div.contato{
+    background-color: rgba(144, 238, 144, 0.658);
+    padding: 1em;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.401);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70vh;
+}
+
+div.contato > h2{
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+section.roupas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+}
+
+section.roupas h2{
+    font-size: 1.3em;
+    text-align: center;
+    margin: 0.8em;
+}
+
+section.roupas > img{
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.401);
+}
